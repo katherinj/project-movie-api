@@ -1,0 +1,19 @@
+{
+  "name": "project-api",
+  "version": "1.0.0",
+  "description": "Individual project 1 hello world ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katherinj/project-api.git"
+  },
+  "author": "Katherin Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katherinj/project-api/issues"
+  },
+  "homepage": "https://github.com/katherinj/project-api#readme"
+}
