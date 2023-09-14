@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/katherinj/project-api/issues"
   },
-  "homepage": "https://github.com/katherinj/project-api#readme"
+  "homepage": "https://github.com/katherinj/project-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "keywords": []
 }
