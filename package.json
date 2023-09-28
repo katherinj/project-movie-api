@@ -2,7 +2,7 @@
   "name": "project-api",
   "version": "1.0.0",
   "description": "Individual project 1 hello world ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/katherinj/project-api#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mysql": "^2.18.1"
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1"
   },
   "keywords": []
 }
