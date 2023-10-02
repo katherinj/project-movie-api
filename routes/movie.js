@@ -2,6 +2,14 @@ const express = require("express");
 const Movie = require("../models/movie");
 const router = express.Router();
 
+router.get("/", async (req, res, next) => {
+  try {
+    const movies = await Movie.fetchAllMovies();
+    return res.status(200).json({ movies });
+  } catch (err) {
+    next(err);
+  }
+});
 router.get("/top5", async (req, res, next) => {
   try {
     const movies = await Movie.fetchTopFiveMovies();
