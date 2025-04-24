@@ -1,3 +1,4 @@
+### Individual Project for CS490
 In order to run:
 
 While in the project-api folder, run the command "npm install" and then "npm start"
